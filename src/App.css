@@ -1,0 +1,41 @@
+/* fonts */
+
+/* container styles */
+.container{
+    maxWidth:100%;
+    padding: 5% 10% ;
+    display:flex;
+}
+
+.small{
+    padding:0
+}
+
+.row-flex{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-flex{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner{
+    background-color: #FFCD9E;
+
+}
+
+.social{
+    background-color: black;
+    color:white
+}
+
+.captz{
+    text-transform:capitalize;
+}
+
+.small-text{
+    margin-bottom:0.5em;
+    font-size:0.8em
+}

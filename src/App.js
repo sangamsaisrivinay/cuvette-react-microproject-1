@@ -1,10 +1,13 @@
 
 import './App.css';
+import {Banner, Social} from './components';
+
 
 function App() {
   return (
     <div className="App">
-      hello
+      <Banner/>
+      <Social/>
     </div>
   );
 }
