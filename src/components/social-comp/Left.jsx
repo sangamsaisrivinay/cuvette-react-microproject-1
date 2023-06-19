@@ -1,6 +1,6 @@
 import React from 'react'
 
-const links=['prompt generator', 'dewwp dialy', 'all contributors', 'your data on dweep.io', 'contribute to dweep']
+const links=['prompt generator', 'dweep dialy', 'all contributors', 'your data on dweep.io', 'contribute to dweep']
 
 const Left = () => {
   return (

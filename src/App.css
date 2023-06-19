@@ -3,14 +3,18 @@
 /* container styles */
 .container{
     maxWidth:100%;
-    padding: 5% 10% ;
+    padding: 2% 10% ;
     display:flex;
     /* flex-wrap: wrap; */
 }
 
+.big{
+    flex-wrap: wrap;
+}
+
 .small{
     padding:0;
-    /* flex-wrap:nowrap; */
+    max-width: 50%;
 }
 
 .row-flex{
@@ -25,12 +29,13 @@
 
 .banner{
     background-color: #FFCD9E;
-
+    height: 70vh;
 }
 
 .social{
     background-color: black;
-    color:white
+    color:white;
+    height: 20vh;
 }
 
 .social-icons{

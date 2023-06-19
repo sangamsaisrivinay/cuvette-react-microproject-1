@@ -1,6 +1,7 @@
 import React from 'react'
 import {Left, Right} from './banner-comp'
 
+
 const Banner = () => {
   return (
     <div className='container banner row-flex'>

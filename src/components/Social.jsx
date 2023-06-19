@@ -4,7 +4,7 @@ import { Left, Right } from './social-comp'
 
 const Social = () => {
   return (
-    <div className='social  container row-flex'>
+    <div className='social big container row-flex' >
         <Left></Left>
         <Right></Right>
     </div>
